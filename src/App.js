@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import DatePicker from 'react-date-picker/dist/entry.nostyle';
+import React from 'react';
+// import DatePicker from 'react-date-picker/dist/entry.nostyle';
 import TodoList from './components/TodoList';
 
 import './App.css';
