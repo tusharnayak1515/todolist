@@ -1,24 +1,41 @@
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
+import DatePicker from 'react-date-picker/dist/entry.nostyle';
+import TodoList from './components/TodoList';
+
 import './App.css';
+import './components/datePicker.css';
+import './components/calender.css';
 
 function App() {
+
+  // const [day, setDay] = useState(new Date());
+  // let [formattedDate, setFormattedDate] = useState({ date: "", month: "", year: "" })
+
+  // useEffect(() => {
+  //   setFormattedDate({
+  //     date: day.getDate(),
+  //     month: day.getMonth(),
+  //     year: day.getFullYear(),
+  //   })
+  // }, [day])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <div className="date">
+        <DatePicker
+          onChange={setDay}
+          value={day}
+          format="dd-MM-y"
+          dayPlaceholder="dd"
+          monthPlaceholder="mm"
+          yearPlaceholder="yyyy"
+        />
+      </div> */}
+      <div className='todo-app'>
+        {/* <h1>{`${formattedDate.date}-${formattedDate.month}-${formattedDate.year}`}</h1> */}
+        <TodoList />
+      </div>
+    </>
   );
 }
 

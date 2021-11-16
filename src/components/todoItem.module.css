@@ -1,0 +1,43 @@
+.todo_container {
+    margin-top: 10vh;
+}
+
+.noTodos {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.items {
+    max-width: 45vw;
+    max-height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0.3vw 1vw; */
+    border: 0.2vw solid grey;
+    border-radius: 1vw;
+    margin-bottom: 3vh;
+    background-color: white;
+}
+
+.items p{
+    font-size: 1.8rem;
+    padding: 0.3vw 1vw;
+    text-align: center;
+    /* background-color: firebrick; */
+    /* margin-right: 1vh; */
+}
+
+.items span {
+    font-size: 1.3rem;
+    margin-right: 2vh;
+    cursor: pointer;
+}
+
+.check {
+    color: green;
+}
+
+.delete {
+    color: red !important;
+}

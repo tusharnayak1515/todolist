@@ -1,0 +1,56 @@
+#home {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgb(127, 179, 6);
+}
+
+#home h1 {
+    margin-top: 3vh;
+    font-size: 2.5rem;
+    color: white;
+}
+
+#home .date {
+    margin-top: 3vh;
+}
+
+.todolist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: olive; */
+}
+
+.addTodoItem {
+    margin-top: 8vh;
+    padding: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0.5vw;
+    background-color: white;
+}
+
+.addTodoItem input {
+    outline: none;
+    border: none;
+    border-bottom: 0.1vw solid grey;
+    padding: 0.3vw;
+    margin-right: 1vh;
+    font-size: 1.5rem;
+}
+
+.addTodoItem span {
+    margin-right: 1vh;
+    cursor: pointer;
+}
+
+.wrapper {
+    border: none;
+    background: none;
+}
